@@ -1,3 +1,4 @@
+# CI workflow for COMP2156
 name: CI
 
 on:
