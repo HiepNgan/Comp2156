@@ -1,10 +1,11 @@
 language: node_js
+
 node_js:
   - "stable"
 
 branches:
   only:
-    - main
+    - master
 
 cache:
   directories:
@@ -24,4 +25,4 @@ deploy:
   github_token: $github_token
   local_dir: build
   on:
-    branch: main
+    branch: master
